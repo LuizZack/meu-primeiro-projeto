@@ -12,7 +12,7 @@ export class PerfilComponent {
   nome  = '';
   perfil = {
     username: "LuizZack",
-    nome: "Luiz Zack Ferreira melo",
+    nome: "Luiz Zack E Ferreira melo",
     local: "Manaus",
     idade: 19,
     profissao: "Desenvolvedor Web",
