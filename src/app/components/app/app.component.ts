@@ -1,14 +1,15 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { PerfilComponent } from "../perfil/perfil.component";
-import {ProdutosComponent} from '../produtos/produtos.component';
+import { RouterOutlet, RouterLink } from '@angular/router';
+
+
 @Component({
   selector: 'app-root',
-  imports: [ProdutosComponent],
-  standalone:true,
+  imports: [RouterOutlet, RouterLink],
+  standalone: true,
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'meu-primeiro-projeto';
+  title = 'fist_project';
 }
+

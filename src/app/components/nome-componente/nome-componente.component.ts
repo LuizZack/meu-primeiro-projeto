@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './nome-componente.component.scss'
 })
 export class NomeComponenteComponent {
-  nome:string = "Rosivaldo da Fonseca";
-  profissao:string = "Desenvolvedor WEB";
-  hobbies:string [] = ["Leitura,'Passear', 'Tecnologia', 'Jogar Bola"]
+  nome:string = "Luiz Zack ";
+  profissao:string = "Engenheiro de Software e Desenvolvedor WEB";
+  hobbies:string [] = ["Jogar, Academia, Tecnologia, Lutar."]
 
 
 }
